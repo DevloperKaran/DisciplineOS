@@ -116,6 +116,24 @@ export default function App() {
         </div>
       )}
     </div>
+          {/* --- FOOTER / SIGNATURE --- */}
+      <footer className="mt-12 pb-24 text-center">
+        <p className="text-[10px] text-zinc-600 uppercase tracking-[0.2em] mb-1">
+          System Engineered by
+        </p>
+        <h2 className="text-xl font-light italic tracking-widest text-zinc-400 font-serif">
+          Architect <span className="font-bold text-white">Karan</span>
+        </h2>
+        <div className="flex justify-center mt-2">
+          <div className="h-[1px] w-8 bg-red-600/50"></div>
+        </div>
+      </footer>
+
+      {/* --- FLOATING ACTION DOCK (Keep this below the footer) --- */}
+      <div className="fixed bottom-6 left-1/2 -translate-x-1/2 w-[90%] ...">
+         {/* ... (Existing Dock Code) ... */}
+      </div>
+  
   );
                                      }
      
