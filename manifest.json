@@ -1,0 +1,9 @@
+{
+  "short_name": "DisciplineOS",
+  "name": "DisciplineOS: Architect Karan Edition",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#000000"
+}
+
